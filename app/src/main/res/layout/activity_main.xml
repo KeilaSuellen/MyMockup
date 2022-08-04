@@ -48,14 +48,15 @@
         android:layout_marginTop="460dp"
         android:fontFamily="@font/comfortaabold"
         android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-        android:textSize="15dp" />
+        android:textSize="15dp"
+        android:textAlignment="center"/>
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|center"
-        android:layout_marginBottom="100dp"
-        android:src="@drawable/seta" />
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="460dp"
+        android:background="@drawable/botao_circulo" />
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

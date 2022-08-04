@@ -14,6 +14,12 @@
         android:theme="@style/Theme.MyMockup"
         tools:targetApi="31">
         <activity
+            android:name=".activityaccont"
+            android:exported="false" />
+        <activity
+            android:name=".activitystart"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
